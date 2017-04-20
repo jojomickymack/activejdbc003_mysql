@@ -22,10 +22,10 @@ run program, it should connect to the database and add a row to the 'cats' table
 
 use java_database;
 
-select * from cats;
-+----+---------+-------+
-| id | name    | color |
-+----+---------+-------+
-|  1 | toodles | brown |
-+----+---------+-------+
+select * from cats;  
++----+---------+-------+  
+| id | name    | color |  
++----+---------+-------+  
+|  1 | toodles | brown |  
++----+---------+-------+  
 1 row in set (0.00 sec)
