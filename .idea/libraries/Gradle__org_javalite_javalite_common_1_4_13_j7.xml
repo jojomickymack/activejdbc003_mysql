@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.javalite:javalite-common:1.4.13.j7">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.javalite/javalite-common/1.4.13.j7/3aa289f7a87df76df0a651bfe5fde18f46334cc0/javalite-common-1.4.13.j7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.javalite/javalite-common/1.4.13.j7/bb41a156610e2480ca99c8cdbd67a7ae2b2f686f/javalite-common-1.4.13.j7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

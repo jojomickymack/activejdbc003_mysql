@@ -1,0 +1,29 @@
+group 'groupid'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'org.javalite.activejdbc'
+
+mainClassName='central.Main'
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'org.javalite:activejdbc-gradle-plugin:1.4.13'
+    }
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.javalite:activejdbc:1.4.13.j7'
+    compile 'org.javalite:activejdbc-instrumentation:1.4.13.j7'
+    compile 'mysql:mysql-connector-java:6.0.6'
+    compile 'org.slf4j:slf4j-api:1.8.0-alpha1'
+    compile 'org.slf4j:slf4j-simple:1.8.0-alpha1'
+}
